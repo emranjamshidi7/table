@@ -1,0 +1,161 @@
+table{
+    width: 100%;
+}
+.table-1 , .table-1 tr,.table-1 td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table_1 tr{
+    background-color: lawngreen;
+}
+.table_1 tr:nth-child(even){
+     background-color: grey;
+}
+.table-1 tr:nth-child(odd){
+background-color: white;
+}
+.table-1 tr:nth-child(even):hover{
+ background-color: rgb(206, 199, 199);
+}
+.table-1 tr:nth-child(odd):hover{
+    background-color: khaki;
+}
+.border-bottem ,.border-bottem tr , .border-bottem td{
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+.border-bottem tr{
+    border-bottom: 2px solid black;
+}
+.table-3 ,.table-3 tr, .table-3 td{
+border: none;
+border-collapse: collapse;
+}
+ .table-3 tr:nth-child(1),.table-3 tr:first-child td{
+    border-bottom: 2px solid black;
+    border-top:none ;
+    border-right: none;
+    border-left: none;
+
+} 
+.table-3 td:first-child{
+    border-right: 2px solid black;
+}
+.table-4,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+
+} 
+.table-4  tr:first-child td{
+    background-color: black;
+    color: white;
+}
+.table-4 tr:nth-child(2){
+    background-color: rgb(179, 197, 195);
+}
+.table-4 tr:nth-child(4){
+    background-color: rgb(179, 197, 195);
+}
+.table-5 ,.table-5 tr, .table-5 td{
+    border: none;
+    /* border-collapse: collapse; */
+    
+    }
+     .table-5 tr:nth-child(1),.table-5 tr:first-child td{
+       
+        background-color: rgb(88, 88, 255);
+    }
+    .table-5 td:first-child{
+        background-color: rgb(88, 88, 255);
+    
+    }
+    .table-5 tr:nth-child(2){
+        background-color: rgb(179, 197, 195);
+    }
+    .table-5 tr:nth-child(4){
+        background-color: rgb(179, 197, 195);
+    }
+.table-6 ,.table-6 tr, .table-6 td{
+    border: none;
+    border-collapse: collapse;
+    background-color: blue;
+    }
+     .table-6 tr:nth-child(1),.table-6 tr:first-child td{
+        border-bottom: 3px solid white;
+        border-top:none ;
+        border-right: none;
+        border-left: none;
+    
+    } 
+    .table-6 td:first-child{
+        border-right: 2px solid white;}
+        .table-6 tr td {
+            border-bottom: 1px solid white;
+            border-top:none ;
+            border-right: none;
+            border-left: none;
+        }
+    .table-7 tr , .table-7 td{
+            border: 2px solid black;
+        }
+        .table-7 tr:nth-child(even){
+            background-color: rgb(179, 197, 195);
+        }
+        .table-8 ,.table-8 tr, .table-8 td{
+            border: none;
+            border-collapse: collapse;
+            border: 1px solid  rgb(179, 197, 195);
+            }
+             .table-8 tr:nth-child(1),.table-8 tr:first-child td{
+                border-bottom: 2px solid black;
+                border-top:none ;
+                border-right: none;
+                border-left: none;
+            
+            } 
+            .table-8 td:first-child{
+                border-right: 2px solid black;
+                background-color: white;
+            }
+            .table-8 tr:nth-child(even){
+                background-color: rgb(179, 197, 195);
+            }
+           
+            .table-9 ,.table-9 tr, .table-9 td{
+                border: none;
+                border-collapse: collapse;
+                }
+                 .table-9 tr:nth-child(1),.table-9 tr:first-child td{
+                    border-bottom: 2px solid black;
+                    border-top: 2px solid black ;
+                    border-right: none;
+                    border-left: none;
+                }
+.table-9 tr:last-child,.table-9 tr:last-child td{
+ border-bottom: 2px solid black;
+ border-top:none ;
+ border-right: none;
+ border-left: none;
+}
+ .table-9 tr:nth-child(even){
+                    background-color: rgb(179, 197, 195);
+}
+.table-10,tr,td{
+    border: none;
+    border-collapse: collapse;
+}
+ .table-10 tr:nth-child(even){
+    
+ background-color: rgb(179, 197, 195);
+ }
+ .table-10 tr:nth-child(odd){
+    background-color: rgb(254, 255, 189);
+    }
+              
+
+
+
+
+            
+        
